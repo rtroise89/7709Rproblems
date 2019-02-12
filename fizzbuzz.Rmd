@@ -15,5 +15,6 @@ This document contains student solutions to the fizzbuzz problem. Students will 
 
 ```{r}
 #your code here
+1+1
 ```
 
