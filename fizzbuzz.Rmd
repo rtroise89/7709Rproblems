@@ -1,0 +1,19 @@
+---
+title: "Fizzbuzz"
+author: "Matt"
+date: "2/12/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This document contains student solutions to the fizzbuzz problem. Students will add to this file using the outline below. Write your name (using three hashtags), then below create an R code block and insert your code. Save the .rmd file, then knit the document to update the html output. Then submit a pull request to merge your changes to the main repository.
+
+### Student Name
+
+```{r}
+#your code here
+```
+
