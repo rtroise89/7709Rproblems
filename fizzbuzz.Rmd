@@ -18,3 +18,15 @@ This document contains student solutions to the fizzbuzz problem. Students will 
 1+1
 ```
 
+### Matt's Code
+
+```{r,eval=F}
+answer <- 1:100
+for(i in 1:100){
+  if(i%%3 == 0) answer[i] <-"fizz"
+  if(i%%5 == 0) answer[i] <-"buzz"
+  if(i%%5 == 0 & i%%3 ==0) answer[i] <-"fizzbuzz"
+}
+print(answer)
+```
+
