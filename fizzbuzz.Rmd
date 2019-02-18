@@ -11,11 +11,31 @@ knitr::opts_chunk$set(echo = TRUE)
 
 This document contains student solutions to the fizzbuzz problem. Students will add to this file using the outline below. Write your name (using three hashtags), then below create an R code block and insert your code. Save the .rmd file, then knit the document to update the html output. Then submit a pull request to merge your changes to the main repository.
 
-### Student Name
+### Richard Troise
 
-```{r}
-#your code here
-1+1
+```{r, eval = FALSE}
+  vec_num <- c(1:100)
+
+  k <- 1
+  while(k <= 100) {    
+    if(vec_num[k]%%3==0 || vec_num[k]%%5== 0) {
+      if(vec_num[k]%%3==0 && vec_num[k]%%5== 0) {print("FizzBuzz")}
+        if(vec_num[k]%%5 == 0) {
+          print("Buzz")
+          k <- k + 1
+        }
+        else {
+          print("Fizz")
+          k <- k + 1
+        }
+    }
+    
+      else {
+        print(vec_num[k])
+        k <- k + 1          
+      }
+
+}
 ```
 
 ### Matt's Code
