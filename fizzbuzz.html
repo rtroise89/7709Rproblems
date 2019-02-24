@@ -9,7 +9,7 @@
 <meta name="generator" content="pandoc" />
 
 
-<meta name="author" content="Matt" />
+<meta name="author" content="Richard" />
 
 
 <title>Fizzbuzz</title>
@@ -185,25 +185,25 @@ $(document).ready(function () {
 
 
 <h1 class="title toc-ignore">Fizzbuzz</h1>
-<h4 class="author"><em>Matt</em></h4>
-<h4 class="date"><em>2/12/2019</em></h4>
+<h4 class="author"><em>Richard</em></h4>
+<h4 class="date"><em>2/24/2019</em></h4>
 
 </div>
 
 
-<p>This document contains student solutions to the fizzbuzz problem. Students will add to this file using the outline below. Write your name (using three hashtags), then below create an R code block and insert your code. Save the .rmd file, then knit the document to update the html output. Then submit a pull request to merge your changes to the main repository.</p>
-<div id="richard-troise" class="section level3">
-<h3>Richard Troise</h3>
 <pre class="r"><code>  vec_num &lt;- c(1:100)
 
   k &lt;- 1
   while(k &lt;= 100) {    
-    if(vec_num[k]%%3==0 || vec_num[k]%%5== 0) {
-      if(vec_num[k]%%3==0 &amp;&amp; vec_num[k]%%5== 0) {print(&quot;FizzBuzz&quot;)}
-        if(vec_num[k]%%5 == 0) {
-          print(&quot;Buzz&quot;)
+    if(vec_num[k]%%3==0 || vec_num[k]%%5==0) {
+      if(vec_num[k]%%3==0 &amp;&amp; vec_num[k]%%5== 0) {
+          print(&quot;FizzBuzz&quot;)
           k &lt;- k + 1
         }
+          else if(vec_num[k]%%5 == 0) {
+            print(&quot;Buzz&quot;)
+            k &lt;- k + 1
+          }
         else {
           print(&quot;Fizz&quot;)
           k &lt;- k + 1
@@ -216,17 +216,6 @@ $(document).ready(function () {
       }
 
 }</code></pre>
-</div>
-<div id="matts-code" class="section level3">
-<h3>Matt’s Code</h3>
-<pre class="r"><code>answer &lt;- 1:100
-for(i in 1:100){
-  if(i%%3 == 0) answer[i] &lt;-&quot;fizz&quot;
-  if(i%%5 == 0) answer[i] &lt;-&quot;buzz&quot;
-  if(i%%5 == 0 &amp; i%%3 ==0) answer[i] &lt;-&quot;fizzbuzz&quot;
-}
-print(answer)</code></pre>
-</div>
 
 
 
