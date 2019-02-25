@@ -1,7 +1,7 @@
 ---
 title: "Snakes and Ladders"
-author: "Matt"
-date: "2/12/2019"
+author: "Richard Troise"
+date: "2/24/2019"
 output: html_document
 ---
 
@@ -9,11 +9,10 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-This document contains student solutions to the snakes and ladders problem. Students will add to this file using the outline below. Write your name (using three hashtags), then below create an R code block and insert your code. Save the .rmd file, then knit the document to update the html output. Then submit a pull request to merge your changes to the main repository.
 
-### Student Name
+### Richard Troise
 
 ```{r}
-#your code here
+# working on it
 ```
 

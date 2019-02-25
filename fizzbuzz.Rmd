@@ -1,7 +1,7 @@
 ---
-title: "Fizzbuzz"
-author: "Richard"
-date: "2/24/2019"
+title: "FizzBuzz"
+author: "Richard Troise"
+date: "2/25/2019"
 output: html_document
 ---
 
